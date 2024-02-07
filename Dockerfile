@@ -2,10 +2,10 @@ FROM python:3.10-slim-buster
 
 WORKDIR /app
 
-RUN apt-get -qq update --fix-missing && apt-get -qq upgrade -y && apt-get install git -y
+RUN apt-get -qq update --fix-missing && apt-get -qq upgrade -y && apt-get install git -y && pip install --upgrade pip
 
 COPY requirements.txt .
-RUN pip3 install --upgrade pip && pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 
