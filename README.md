@@ -144,14 +144,14 @@
     - Use [HK-Loader](https://github.com/SilentDemonSD/HK-Loader) and Follow further Steps.
     - Use Process Type `worker` to run without any Stop.
     - **Variables Values:**
-      - `REPO_URL`: https://github.com/SilentDemonSD/FZBypassBot
+      - `REPO_URL`: https://github.com/Tamilupdates/FZBypassBot
       - `REPO_BRANCH`: main
       - `START_CMD`: bash start.sh
 2. `VPS`
     - **Build And Run The Docker Image Using Official Docker Commands**
         - _Clone the Repository_
             ```
-            git clone https://github.com/SilentDemonSD/FZBypassBot && cd FZBypassBot
+            git clone https://github.com/Tamilupdates/FZBypassBot && cd FZBypassBot
             ```
         - _Build Docker image:_
             ```
@@ -197,7 +197,7 @@
 - `TERA_COOKIE`: Get the Terabox `ndus` Cookie from Cookie Editor Extension.
 - `LARAVEL_SESSION`: Get from `sharer.pw` Cookie for Login base.
 - `XSRF_TOKEN`: Get from `sharer.pw` Cookie for Login base.
-- `UPSTREAM_REPO`: Put Upstream Repo to Update. Defaults to `https://github.com/SilentDemonSD/FZBypassBot`
+- `UPSTREAM_REPO`: Put Upstream Repo to Update. Defaults to `https://github.com/Tamilupdates/FZBypassBot`
 - `UPSTREAM_BRANCH`: Put Branch Name. Defaults to `main`
 
 ---
