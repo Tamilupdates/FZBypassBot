@@ -12,7 +12,7 @@ async def restart(client, message):
     await (await create_subprocess_exec('python3', 'update.py')).wait()
     with open(".restartmsg", "w") as f:
         f.write(f"{restart_message.chat.id}\n{restart_message.id}\n")
-    execl(executable, executable, "-m", "FZBypass")
+    execl(executable, executable, "bash", "start.sh")
 
 async def restart():
     if ospath.isfile(".restartmsg"):
