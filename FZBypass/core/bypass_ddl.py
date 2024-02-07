@@ -181,7 +181,7 @@ async def gyanilinks(url: str) -> str:
     resp = cget("POST", f"{DOMAIN}/links/go", data= { input.get('name'): input.get('value') for input in inputs }, headers={ {'Accept': '*/*', 
          'Accept-Language': 'en-US,en;q=0.5', 
          'Accept-Encoding': 'gzip, deflate, br', 
-         'Referer': 'https://www.hipsonyc.com/', 
+         'Referer': 'hipsonyc.com', 
          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36' } })
     try: 
         return resp.json()['url']
