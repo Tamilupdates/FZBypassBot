@@ -1,7 +1,7 @@
 <div align="center">
-    <a href="https://github.com/SilentDemonSD">
+    <a href="https://github.com/Tamilupdates">
         <kbd>
-            <img width="250" src="https://graph.org/file/80f677693ae80cbd8707e.jpg" alt="FZ Bypass Logo">
+            <img width="250" src="https://graph.org/file/80f677693ae80cbd8707e.jpg" alt="Bypass Logo">
         </kbd>
     </a>
 
@@ -139,7 +139,7 @@
 
 ## ***Deploy Guide***
 1. `Heroku` _(Recommended)_
-    - Use [HK-Loader](https://github.com/SilentDemonSD/HK-Loader) and Follow further Steps.
+    - Use [HK-Loader](https://github.com/Tamilupdates/HK-Loader) and Follow further Steps.
     - Use Process Type `worker` to run without any Stop.
     - **Variables Values:**
       - `REPO_URL`: https://github.com/Tamilupdates/FZBypassBot
@@ -201,6 +201,6 @@
 ---
 
 ## ***Credits***
-- `SilentDemonSD` (Developer)
+- `Tamilupdates` (Developer)
 - `Other Contributors` (Those who commited and Helped Internally)
 - `Link-Bypasser-Bot` (Many Scripts are Taken & Totally Modified)
