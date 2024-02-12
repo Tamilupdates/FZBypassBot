@@ -27,6 +27,7 @@
       },
       "AUTO_BYPASS": {
         "description": "Change between Command Mode or Auto Bypass Mode. Default is False.",
+        "value": "True",
         "required": false
       },
       "AUTH_CHATS": {
