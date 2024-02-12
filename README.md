@@ -5,17 +5,17 @@
         </kbd>
     </a>
 
-## Deploy on Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/Link-Bypasser-Bot)
-
----
-
 ## ***Bypass-Bot***
 
 <i>A **Elegant Fast Multi Threaded Bypass Telegram Bot** for Bigger Deeds like Mass Bypass. Try Now, and Feel the Speedy Work.</i>
 
 </div>
+
+---
+
+## Deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/Link-Bypasser-Bot)
 
 ---
 
