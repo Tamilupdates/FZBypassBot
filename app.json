@@ -1,0 +1,55 @@
+{
+    "name": "Bypass Bot",
+    "description": "A Telegram Bot that can Bypass Link",
+    "keywords": [
+      "telegram",
+      "link-bypass",
+      "bypass-bot", 
+      "telegram-bot" 
+    ],
+    "repository": "https://github.com/Tamilupdates/FZBypassBot",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Telegram Bot Token that you got from @BotFather",
+        "required": true
+      },
+      "API_ID": {
+        "description": "Your API ID from my.telegram.org",
+        "required": true
+      },
+      "API_HASH":{
+        "description": "Your API HASH from my.telegram.orgr",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Telegram User ID (not username) of the Owner of the bot.",
+        "required": false
+      },
+      "AUTO_BYPASS": {
+        "description": "Change between Command Mode or Auto Bypass Mode. Default is False.",
+        "required": false
+      },
+      "AUTH_CHATS": {
+        "description": "Group ID (with Topic ID), Separated by space.",
+        "required": false
+      },
+      "UPSTREAM_REPO": {
+        "description": "Put Upstream Repo to Update. Defaults to 'https://github.com/Tamilupdates/FZBypassBot'",
+        "required": false
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Put Branch Name. Defaults to 'main'",
+        "required": false
+      }
+    },
+    "buildpacks": [
+     {
+        "url": "heroku/python"}
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "Basic"
+      }
+    }
+  }

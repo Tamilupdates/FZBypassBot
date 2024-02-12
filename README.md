@@ -1,9 +1,15 @@
 <div align="center">
     <a href="https://github.com/Tamilupdates">
         <kbd>
-            <img width="250" src="https://graph.org/file/80f677693ae80cbd8707e.jpg" alt="Bypass Logo">
+            <img width="250" src="https://graph.org/file/0ff9d5e94a070fe4154c0.jpg" alt="Bypass Logo">
         </kbd>
     </a>
+
+## Deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/Link-Bypasser-Bot)
+
+---
 
 ## ***Bypass-Bot***
 
