@@ -8,6 +8,7 @@
       "telegram-bot" 
     ],
     "repository": "https://github.com/Tamilupdates/FZBypassBot",
+    "stack": "container",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token that you got from @BotFather",
@@ -45,10 +46,6 @@
         "required": false
       }
     },
-    "buildpacks": [
-     {
-        "url": "heroku/python"}
-    ],
     "formation": {
       "worker": {
         "quantity": 1,
