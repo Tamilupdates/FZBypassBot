@@ -34,11 +34,11 @@
         "required": false
       },
       "UPSTREAM_REPO": {
-        "description": "Put Upstream Repo to Update. Defaults to 'https://github.com/Tamilupdates/FZBypassBot'",
+        "description": "Put Upstream Repo to Update. Defaults to `https://github.com/Tamilupdates/FZBypassBot`",
         "required": false
       },
       "UPSTREAM_BRANCH": {
-        "description": "Put Branch Name. Defaults to 'main'",
+        "description": "Put Branch Name. Defaults to `main`",
         "required": false
       }
     },
